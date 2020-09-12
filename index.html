@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendações de Restaurantes</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <form action="/research" method="POST">
+            <h3>Lista de recomendações de restaurantes</h3>
+            <br>
+            <fieldset> 
+                <legend>SOBRE O RESTAURANTE</legend>
+                <div class="input-base">
+                    <label for="estabelecimento">Nome do Estabelecimento:</label>
+                    <input id="estabelecimento" type="text">
+                </div>
+                <div class="input-base">
+                    <label for="endereco">Endereço:</label>
+                    <input id="endereco" type="text">
+                </div>
+                <div class="input-base">
+                    <label for="phone">Telefone:</label>
+                    <input id="phone" type="text">
+                </div>
+
+                <div>
+                    <span>Categoria:</span>
+                    <input id="lanches" type="checkbox">
+                    <label for="lanches">Lanches</label>
+
+                    <input id="pizzas" type="checkbox">
+                    <label for="pizzas">Pizzas</label>
+
+                    <input id="hamburgueres" type="checkbox">
+                    <label for="hamburgueres">Hambúrgueres</label>
+
+                    <input id="japonesa" type="checkbox">
+                    <label for="japonesa">Japonesa</label>
+
+                    <input id="chinesa" type="checkbox">
+                    <label for="chinesa">Chinesa</label>
+                </div>
+                <div>
+                    <span>Faixa de Valores:</span>
+                    <select name="faixaValores" id="valores">
+                        <option value="$">$</option>
+                        <option value="$$">$$</option>
+                        <option value="$$$">$$$</option>
+                    </select>
+                </div>
+            </fieldset> 
+            <br>
+            <fieldset> 
+                <legend>CONTE SUA EXPERIÊNCIA</legend>
+                <div>
+                    <label for="pedido">O que pediu?</label>
+                    <input id="pedido" type="text">
+                </div>
+                <div>
+                    <label for="valor">Quanto foi?</label>
+                    <input id="valor" type="text" placeholder="R$ 0,00">
+                </div>
+                <div>
+                    <div>Observações:</div>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+
+            </fieldset> 
+
+            <div>
+            
+            </div>
+        </form>
+    </div>
+</body>
+</html>

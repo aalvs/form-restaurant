@@ -1,0 +1,31 @@
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 3rem;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+fieldset {
+    padding: 1rem;
+}
+
+.input-base {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-base label {
+    padding-bottom: 8px;
+}
+
+.input-base input {
+    padding: 0.8em;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    max-width: 470px;
+}
